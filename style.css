@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(145, 184, 255);
+    color: rgb(255, 255, 255);
+    font-family: Verdana, sans-serif;
+}
+h1, h2, span{    
+    font-weight: bold;
+    color: rgb(167, 247, 246);
+    background-color: rgb(85, 183, 222);
+    transition: 1s;
+    background: transparent;
+    filter: drop-shadow(1px 5px 3px  #00d0ff)
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    font-size: 1.25rem;
+    transition: 0.5s;
+    cursor: pointer;
+   background-color: rgb(85, 206, 222);
+    transition: 1s;
+    background: transparent;
+    filter: drop-shadow(1px 5px 3px  #00d9ff) 
+
+}
+a:visited{
+    color: white;
+}
+div{
+    display: flex;
+  justify-content: center;
+  
+}
